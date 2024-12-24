@@ -26,7 +26,8 @@ repositories {
 dependencies {
 
     // Explicit Spring dependencies (ensure using 6.2.1)  
-    implementation("org.springframework:spring-core:6.2.1")   
+    implementation("org.springframework:spring-core:6.2.1") 
+    implementation("org.springframework:spring-jcl:6.2.0")
     implementation("org.springframework:spring-jcl:6.2.1")
     implementation("org.springframework:spring-aop:6.2.1")
     implementation("org.springframework:spring-tx:6.2.1")
