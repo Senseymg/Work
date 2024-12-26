@@ -26,6 +26,7 @@ repositories {
 dependencies {
 
     // Explicit Spring dependencies (ensure using 6.2.1)  
+    implementation("at.bestsolution.efxclipse.eclipse:org.eclipse.ecf.provider.filetransfer.httpclient45:1.0.100.v20191012-1656")
     implementation("org.springframework:spring-core:6.2.1") 
     implementation("org.springframework:spring-jcl:6.2.0")
     implementation("org.springframework:spring-jcl:6.2.1")
